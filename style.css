@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 15px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+}
+
+main {
+    background-color: white;
+}
+
+.wrap {
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+
+.heading {
+    line-height: 50px;
+}
+
+/* header */
+
+.header,
+.footer {
+    background-color: #3F313E;
+    color: white;
+}
+
+.header-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.header__content {
+    margin-left: 70px;
+}
+
+.header-img {
+    height: 100px;
+    border-radius: 50%;
+}
+
+.header-title {
+    line-height: 50px;
+}
+
+/* objective */
+
+.objective-text,
+.experience-text,
+.skills-text {
+    padding: 10px 0;
+}
+
+/* experience */
+
+.experience-wrap,
+.skills-wrap,
+.language-wrap,
+.form-wrap {
+    padding-top: 0;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 300px;
+}
+
+.experience-text {
+    padding-left: 160px;
+}
+
+.experience-heading {
+    display: block;
+    min-width: 140px;
+
+}
+
+/* language */
+
+.contacts-list,
+.language-list {
+    list-style-type: none;
+}
+
+.language-item::before {
+    content: "\25A0";
+    color: #E5D6D2;
+    margin-right: 2px;
+
+}
+
+/* form */
+
+.form {
+    background-color: #E5D6D2;
+}
+
+.form-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    display: flex;
+
+    justify-content: center;
+}
+
+.form__input {
+    padding: 0 5px;
+}
+
+.form-input:focus {
+    outline: none;
+}
+
+.form-input,
+.form-textarea {
+    background-color: #E5D6D2;
+    border: none;
+    border-bottom: solid 1.25px #795548;
+    width: 200px;
+}
+
+.form-title {
+    text-align: center;
+}
+
+.form-textarea {
+    resize: none;
+    width: 410px;
+}
+
+.form-btn {
+    width: 200px;
+    height: 30px;
+    padding: 10px 0;
+}
+
+.form__btn {
+    width: 200px;
+    height: 30px;
+    border: none;
+    background-color: #3F313E;
+    color: white;
+}
+
+
+/* contacts */
+
+.contacts {
+    color: white;
+}
+
+.contacts-link {
+    text-decoration: none;
+    color: white;
+
+}
+
+.contacts-text {
+    color: #9a7b98;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.contacts-wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+}
+
+.contacts-list {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+}
